@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fashiony.css">
+    <!-- ******************  Get Bootstrap css ************************-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- ******************  GET font-awesome  *********************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- ******************  GET animate.css   *********************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">    
+     <style>
+       /**************** SIGN IN BUTTON **********************/
+        .btn:not(:disabled):not(.disabled){
+            background-color: black;
+         color: white;
+         font-family: cursive;
+         font-style: italic;
+         border: black;
+         /* margin-left: 1300px; */
+        }
+        /******************* END SIGN IN *******************/
+        .bg-dark {
+    background-color: #020202!important;
+    padding: .05px;
+}
+
+.bg-primary {
+    background-color: #f8f9fa!important;
+    padding: 5px;
+}
+.bg-light{
+  background-color: darkblue;
+}
+/******************** FASHIONY ****************/
+
+/******************* END FASHIONY ***************/
+
+.dropdown-item{
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #060707;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    margin-left: 500px;
+    margin: 5px;
+    background-color: ivory;
+    color: black;
+}
+img{
+  height: 450px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+  position: absolute;
+  
+  margin-left: 0px;
+margin-top: 400px;
+}
+.h2,h2{
+  color: black;
+  font-weight: bolder;
+  background-image: url(pjimage.jpg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/****************** SEARCH BUTTON *******************/
+.form-inline .form-control{
+  margin-left: 800px;
+}
+/****************** END SEARCH *********************/
+.navbar-light .navbar-nav .nav-link{
+  width: 70px;
+  margin:13px;
+  
+}
+.fnoon{
+       
+        margin-left: 500px;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .fa, .far, .fas{
+     color: red;
+     
+    }
+  
+     </style>
+
+</head>
+<body>
+  <!--********************** START NAVBAR 1 **************************-->
+  <ul class="nav">
+  <!--****************** START MONEY *****************************-->
+    <li class="nav-item">
+      <select name="money" >
+        <option selected>JOD</option>
+        <option value="1">BHD</option>
+        <option value="3">KWD</option>
+        <option value="3">OMR</option>
+        <option value="3">QAR</option>
+        <option value="3">SAR</option>
+        <option value="3">KWD</option>
+        <option value="3">UK</option>
+      </select>
+         </li>
+  <!--****************** END MONEY *****************************-->
+
+    <!--****************** START LANGUAGE *****************************-->
+    <li class="nav-item">
+      <select name="languge" >
+        <option selected>عربي</option>
+        <option value="1">English</option>
+        <option value="3">Italiano</option>
+        <option value="3">Français</option>
+        <option value="3">한국어</option>
+      </select>
+    </li>
+      <!--****************** END LANGUAGE *****************************-->
+
+      <!--****************** START FASHIONY  ******************************-->
+     <a href="" id="fashiony"> FASHIONY </a>
+           <!--****************** END FASHIONY   ******************************-->
+
+      <!--****************** START SEARCH  ******************************-->
+    <li class="nav-item">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      </form>   
+     </li>
+      <!--****************** END SEARCH   ******************************-->
+
+      <!--****************** START USER FONT-AWESOME   ******************************-->
+    <li class="nav-item">
+      <a class="navbar-brand" href="#"><i class="far fa-user fa-1x"></i></a>
+    </li>
+     <!--****************** END USER FONT-AWESOME   ******************************-->
+
+     <!--****************** START HEART FONT-AWESOME  ******************************-->
+    <li class="nav-item">
+      <li class="header-wishlist">
+        <a class="navbar-brand" href="#"><i class="far fa-heart fa-1x"></i></a>
+</li>
+        </li>
+    <!--****************** END HERAT FONT-AWESOME   ******************************-->
+
+    <!--****************** START CART FONT-AWESOME  ******************************-->
+    <li class="nav-item">
+        <a class="navbar-brand" href="#"><i class="fas fa-shopping-cart fa-1x"></i></a> 
+       
+         </li>
+    <!--****************** END CART FONT-AWESOME  ******************************-->
+  </ul>
+    <!--********************** END NAVBAR 1 **************************-->
+
+    <!--********************** START NAVBAR 2 **************************-->
+  <!-- <ul class="nav" id="nav2">
+    <div class="dropdown">
+      <button class="dropbtn"><a href="" id="newin"> NEW IN</button></a>
+      <div class="dropdown-content"> -->
+        <!-- <section class="section4 text-center ">
+          <div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-12"> -->
+                      <!-- Custom Div -->
+                      <!-- <div class="content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+    
+                      </div>
+                  </div>
+                  <br>
+                  <br>
+     -->
+                  <!-- *****Div2**** -->
+                  <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+                      <!-- Custom Div -->
+                      <!-- <div class="content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+    
+                      </div>
+                  </div>
+                  <br>
+                  <br> -->
+    
+                  <!-- ****div3**** -->
+                  <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+                      <!-- Custom Div -->
+                      <!-- <div class="content">
+                      
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+    
+                      </div>
+                  </div>
+                  <br>
+                  <br> -->
+    
+                   <!-- *****Div4**** -->
+                   <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+                    <!-- Custom Div -->
+                    <!-- <div class="content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+  
+                    </div>
+                </div>
+                 <br>
+                 <br>
+    
+                  
+              </div>
+          </div>
+      </section>
+       
+      </div>
+    </div> -->
+    <!-- <li class="nav-item"> -->
+      <!-- <a href="" id="newin"> NEW IN </a>
+      <a href="" id="womens">WOMENS</a>
+      <a href="" id="mens">MENS</a>
+      <a href="" id="kids">KIDS</a>
+      <a href="" id="essentials">ESSENTIALS</a>
+      <a href="" id="sale">SALE</a> -->
+    <!-- </li> -->
+  </ul>
+    <!--********************** END NAVBAR 2 **************************-->
+
+  
+  
+  
+
+ 
+    
+
+
+
+     
+
+
+      <!-- <div class="dropdown">
+        <button class="dropbtn">JOD</button>
+        <div class="dropdown-content">
+          <a href="#">BHD</a>
+          <a href="#"> JOD</a>
+          <a href="#">KWD</a>
+          <a href="#">OMR</a>
+          <a href="#">QAR</a>
+          <a href="#">SAR</a>
+          <a href="#">AED</a>
+          <a href="#">UK</a>
+
+
+
+        </div>
+        
+      </div>
+       -->
+      <!-- ********************************************* -->
+     
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  MEN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    
+                    <a class="dropdown-item" href="#">Poles</a>
+                  <a class="dropdown-item" href="#">Shirts</a>
+                  <a class="dropdown-item" href="#">Layering</a>
+                  <a class="dropdown-item" href="#">Sweaters</a>
+                  <a class="dropdown-item" href="#">Pants&Shorts</a>
+                  <a class="dropdown-item" href="#">Jakets&vests</a>
+                  <a class="dropdown-item" href="#">Sale</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  WOMEN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Poles&Tees</a>
+                    <a class="dropdown-item" href="#">Shirts</a>
+                    <a class="dropdown-item" href="#">skorts</a>
+                    <a class="dropdown-item" href="#">Layering</a>
+                    <a class="dropdown-item" href="#">Sweaters</a>
+                    <a class="dropdown-item" href="#">Pants&Shorts</a>
+                    <a class="dropdown-item" href="#">Jakets&vests</a>
+                    <a class="dropdown-item" href="#">Sale</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"> SALE <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+              </li>
+              
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+      -->
+
+   
+    
+     
+
+
+  
+
+
+    <section class="afnan text-center" data-vide-bg="img/production ID_3917744" >
+        <div class="title">
+            <h5>ENJOY YOUR MORNING</h5>
+            <h6>There‘s nothing like starting your day in the right foot. Leap away from city life in style</h6>
+
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Shop men’s  ></a>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Shop women’s  ></a>
+        </div>
+    </section>
+
+     <section class="fofo text-center">
+        <div class="title">
+          <a href=""><img src="img/edit.jpg" width="90%"></a>
+        </div>
+     </section>
+     <br>
+
+
+     <section class="section1 text-center">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <!-- ******************* custom DIV ******************* -->
+              <div class="content" id="id1">
+                    <h6>Trending </h6>
+                    <h3><div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      
+                    </div></h3>
+                                 </div>
+                               
+                                
+
+
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- Custom Div -->
+                <div class ="content" id="id2">
+                  <h4>Sign up & get 15% off</h4>
+                  <h3><a href="">Sign Up</a></h3>                  
+                                   </div>
+                                  
+                </div>
+          
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <!-- Custom Div -->
+              <div class="content" id="id3">
+                    
+                                 </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- Custom Div -->
+                <div class="content" id="ff">
+                  <h4>New Arrivals</h4>
+                     
+                                   </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <!-- Custom Div -->
+                  <div class="content" id="fff">
+                        
+                                     </div>
+  
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Custom Div -->
+                    <div class="content" id="ffff">
+                      <h4>ACCESSORIES YOUR SUMMER</h4>
+                        
+                                       </div>
+    
+                    </div>
+
+              </div>
+          </div>
+
+          </div>
+
+      </div>
+
+  </section>
+
+  
+
+
+  <div class="fnoon animate__animate animate__heartBeat">
+    <h7 class="jordan animate__animate   animate__heartBeat"> Popular Products</h7>
+    </div>
+<!-- <section class="fn animate__animate__heartBeat text-center">
+  <div class="title">
+    <h7>Popular Products</h7>
+  </div>
+</section> -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <section class="section3 text-center ">
+                  <div>
+                  </div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                              <img src="img/1.jpg" alt="">      
+                              </div>
+                          </div>
+      
+                          <!-- *****Div2**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                               <img src="img/2.jpg" alt="">
+                              </div>
+                          </div>
+      
+                          <!-- ****div3**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                                 <img src="img/3.jpg" alt="">
+                              </div>
+                          </div>
+      
+                         
+      
+                          
+                      </div>
+                  </div>
+              </section>
+
+              </div>
+              <div class="carousel-item">
+                <section class="section3 text-center ">
+                  <div>
+                  </div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                              <img src="img/4.jpg" alt="">      
+                              </div>
+                          </div>
+      
+                          <!-- *****Div2**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                               <img src="img/5.jpg" alt="">
+                              </div>
+                          </div>
+      
+                          <!-- ****div3**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                                 <img src="img/6.jpg" alt="">
+                              </div>
+                          </div>
+      
+                          
+      
+                          
+                      </div>
+                  </div>
+              </section>
+              </div>
+              <div class="carousel-item">
+                <section class="section3 text-center ">
+                  <div>
+                  </div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                              <img src="img/7.jpg" alt="">      
+                              </div>
+                          </div>
+      
+                          <!-- *****Div2**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                               <img src="img/8.jpg" alt="">
+                              </div>
+                          </div>
+      
+                          <!-- ****div3**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                                 <img src="img/9.jpg" alt="">
+                              </div>
+                          </div>
+      
+                          
+      
+                          
+                      </div>
+                  </div>
+              </section>
+              </div>
+
+              <div class="carousel-item">
+                <section class="section3 text-center ">
+                  <div>
+                  </div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                              <img src="img/10.jpg" alt="">      
+                              </div>
+                          </div>
+      
+                          <!-- *****Div2**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                               <img src="img/11.PNG" alt="">
+                              </div>
+                          </div>
+      
+                          <!-- ****div3**** -->
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                              <!-- Custom Div -->
+                              <div class="content">
+                                 <img src="img/12.jpg" alt="">
+                              </div>
+                          </div>
+      
+                          
+      
+                          
+                      </div>
+                  </div>
+              </section>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <section class="section4 text-center ">
+      <div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <!-- Custom Div -->
+                  <div class="content">
+                    <h5 >We Ship To</h5>
+                    <p >Saudi Arabia </p>
+                    <p >United Arab Emirates</p>
+                    <p > Qatar </p>
+                    <p > Kuwait </p>
+                    <p > Oman </p>
+                    <p > Bahrain </p>
+                    <p > Jordan </p>
+        
+
+                  </div>
+              </div>
+
+              <!-- *****Div2**** -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <!-- Custom Div -->
+                  <div class="content">
+                    <h5>CUSTOMER SERVICE </h5>
+                    <p><a href=""> About Us </a></p>
+                    <p><a href="">  Contact Us </a></p>
+                    <p><a href="">Shipping and Delivery</a></p>
+                    <p><a href="">Privacy and Security</a></p>
+                    <p><a href=""> Payment and Promotions </a></p>
+                    <p><a href=""> Returns and Refunds </a></p>
+                    <p><a href=""> aramex Office Locator </a></p>
+
+                  </div>
+              </div>
+
+              <!-- ****div3**** -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <!-- Custom Div -->
+                  <div class="content">
+                    <h5>CONECT WITH FASHIONY</h5>
+                    <a href="https:www.facebook.com"><i class="fab fa-facebook"></i> </a>
+              <a href="https:www.twitter.com"> <i class="fab fa-twitter"></i> </a>
+              <a href="https:www.instagram.com"> <i class="fab fa-instagram-square"></i></i> </a>
+
+
+                  </div>
+              </div>
+
+             
+
+              
+          </div>
+      </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<h8>COPYRIGHT © 2019 MENA.BOOHOO.COM. ALL RIGHTS RESERVED. OUR PRIVACY POLICY | TERMS & CONDITIONS | RETURNS POLICY</h8>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- GET BOOTSTRAP JAVA -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.min.js" integrity="sha512-h7sEAeLJrgSKuLDecT6NeHSUlbSwpS30IqGu21caM/sa//cWhp5J5D+MOZ0C5QM4GbJlZeEY1ZXXGVtI5m1arg==" crossorigin="anonymous"></script>
+<!-- ****Jquery Library***** -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<!-- *********Vide Library******** -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js" integrity="sha512-xbl0smDcemxvxGBO15P8UbrrP1TWMfT2VQq0uggureCJQGr7umzx72azYCQLospxRd9RvMqRGJcKjrmbJ5cWQA==" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
